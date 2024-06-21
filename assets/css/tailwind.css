@@ -3407,3 +3407,22 @@ section .icondiv{
   #home > video{
     margin-top: 80px;
   }
+
+   /* Hamdiv */
+ #hamdiv{
+  position:fixed;
+  /* z-index: 10; */
+  z-index: 9999;
+ }
+
+ /* Swiper button next (hover) */
+.testimonial-carousel .justify-center .swiper-button-next:hover{
+  background-color:black;
+ }
+ 
+ /* Swiper button prev (hover) */
+ .testimonial-carousel .justify-center .swiper-button-prev:hover{
+  background-color:black;
+ }
+ 
+ 
