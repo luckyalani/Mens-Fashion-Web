@@ -4,10 +4,7 @@
 ! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
-/*
-1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
-2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
-*/
+
 
 *,
 ::before,
@@ -3295,10 +3292,7 @@ body {
   display:none;
  }
  
- /* Relative */
-footer.relative{
-  background-color:#ffffff;
- }
+ 
  
  /* Image */
  /* .relative .inline-block img{
@@ -3424,5 +3418,58 @@ section .icondiv{
  .testimonial-carousel .justify-center .swiper-button-prev:hover{
   background-color:black;
  }
+
+
+
+ /* Relative */
+footer.relative{
+  background-color:#ffffff;
+  box-shadow:0px 0px 1px 0px #000000;
+ }
+ 
+ .relative ul a{
+  color:#020303;
+ }
+ .relative ul a:hover{
+  text-decoration: underline;
+ }
+ .my-1 .md\:justify-start a{
+  color:#020202;
+ }
+
+ /* Font semibold */
+.relative .w-full .font-semibold{
+  color:#3f3f3f;
+ }
+ 
+ .justify-end .sm\:flex svg{
+cursor: pointer;
+ }
+
+ .relative .border-t .container .flex-wrap > .w-full{
+  width:100% !important;
+ }
+ 
+ @media (max-width:600px){
+
+  /* Justify between */
+  .relative .w-full .justify-between{
+   flex-direction:column;
+  }
+  
+  /* Division */
+  .relative .w-full .md\:justify-start{
+   flex-direction:column;
+   gap: 20px;
+  }
+  
+ }
+ 
+ 
+
+ 
+ 
+ 
+ 
  
  
